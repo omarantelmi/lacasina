@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>La Casina - Salento Vacation Rental</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Corinthia&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Jockey+One&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="top">
+<header>
+  <div class="container header-content">
+    <img src="loghi/logo.png" alt="Logo La Casina" class="logo" />
+    <div class="language-selector-wrapper"> <div class="language-selector">
+        <a href="?lang=it" class="lang-link active" data-lang="it">IT</a>
+        <span>|</span>
+        <a href="?lang=en" class="lang-link" data-lang="en">EN</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <section class="gallery-section" id="struttura-section">
+        <div class="main-gallery-container">
+            <div class="gallery-slides">
+                <script>
+                    for (let i = 1; i <= 43; i++) {
+                        const activeClass = (i === 1) ? ' active' : '';
+                        document.write(`<img src="img/gallery/slide${i}.jpg" alt="Foto Struttura ${i}" class="gallery-slide${activeClass} lightbox-target">`);
+                    }
+                </script>
+            </div>
+            <button class="gallery-btn prev">❮</button>
+            <button class="gallery-btn next">❯</button>
+        </div>
+
+        <div class="thumbnail-gallery-container">
+            <button class="thumbnail-nav-btn prev">◀</button>
+            <div class="thumbnail-scroll-wrapper">
+                <script>
+                    for (let i = 0; i < 43; i++) {
+                        const activeClass = (i === 0) ? ' active' : '';
+                        document.write(`<img src="img/gallery/slide${i + 1}.jpg" alt="Miniatura ${i + 1}" class="thumbnail${activeClass}" data-index="${i}">`);
+                    }
+                </script>
+            </div>
+            <button class="thumbnail-nav-btn next">▶</button>
+        </div>
+    </section>
+
+  <section class="location-section">
+    <div class="location-image-overlay"></div>
+    <div class="location-text">
+      <div class="content-wrapper">
+        <h2>Location</h2>
+        <p>Il Salento, il ristoro dell’anima, una meta ideale per coloro che sono alla ricerca di relax.</p>
+        <p>Una vacanza che vi lascerà un ricordo speciale, di grandi e bellissime emozioni che vi rimarranno nel cuore.</p>
+        <p>Siamo nell’Alto Salento, dove corpo e spirito ritrovano il loro equilibrio trascorrendo giorni sereni in un paese ricco di tradizioni e delizie locali.</p>
+        <p>Grazie alla padrona di casa, ottima cuoca, si ha la fortuna di esplorare nuovi sapori della cucina tradizionale salentina.</p>
+        <p>Castelli, trulli, masserie e costruzioni tipiche rendono le vacanze una continua scoperta, è una esplorazione senza fine del territorio.</p>
+        <p>Ma siamo in giorni dedicati al riposo, all’assoluto dolce far niente. A pochi km dalla “Casina”, la spiaggia, la scogliera e la complicità del sole, rendono speciale il soggiorno.</p>
+        <p>E per chi non vuole proprio staccarsi dal verde parco che ospita i vacanzieri, la casina da Netta offre una bellissima piscina con acqua salata e lettini prendisole per un totale relax, lo sciabordio dell’acqua, crea le giuste note per una quotidianità premiata vacanza fin dalle prime ore</p>
+      </div>
+    </div>
+  </section>
+
+    <section class="property-description">
+        <div class="container">
+            <h2>LA VILLA</h2>
+            <p class="main-description">
+                In affitto villa con piscina in Alto Salento vicino al mare di Torre Guaceto. La villa ospita da 2 a 7 persone in 2 camere da letto, ideale per 2 coppie, una famiglia o un gruppo numeroso.<br>
+                1000 m di prato inglese ideale per far giocare i bambini, una piscina con idromassaggio illuminata alla sera con effetti luce e baldacchino matrimoniale a bordo piscina.<br>
+                La villa è divisa in due abitazioni: l'abitazione "Rossa" (Da noi chiamata "La Casina") viene fittata esclusivamente per uso turistico, mentre nell'altra abitazione ci abitiamo noi Host. Al momento non ci sono ulteriori strutture all'interno della villa.<br>
+                <br>
+                Gli ospiti hanno a disposizione un soggiorno climatizzato, un angolo cottura, una camera da letto climatizzata con divano letto matrimoniale 2 pouf letto, tv, poi una camera matrimoniale con un letto singolo.<br>
+                I bagni sono 2, uno interno all’alloggio (completo di doccia) e l’altro esterno alla proprietà nei pressi della piscina, sempre provvisto di doccia.<br>
+                <br>
+                A disposizione arredo da giardino per Pranzare/Cenare all'esterno. La sera, l'illuminazione della struttura regala un'ambiente caldo, accogliente e d'atmosfera.<br>
+                <br>
+                Aperta tutto l’anno, La Villa, è dotata di riscaldamenti adeguati.<br>
+                <br>
+                Dimensione Piscina Principale: 6×12<br>
+                Altezze Piscina Principale: h180/190 Parte Più Alta; h40 parte più bassa.
+            </p>
+
+            <section class="google-street-view">
+                <div class="container">
+                    <h2>Esplora la struttura con</h2>
+                    <p class="street-view-text">GOOGLE STREET VIEW</p>
+                    <div class="street-view-embed">
+                        <iframe src="https://www.google.com/maps/embed?pb=!4v1626100937268!6m8!1m7!1sCAoSK0FGMVFpcE1kQ3JydE9wc2E5MTlnN0pJSkVxWk9XMEpBQkNsaWRTUVo4eG8.!2m2!1d40.6351907!2d17.6322262!3f84.82291880719609!4f6.37745389945853!5f0.7820865974627469" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </section>
+  </main>
+
+  <main class="booking-main" id="prenota-section">
+    <div class="container">
+        <section class="features-section">
+
+                <div class="features-list-wrapper">
+                    <h2>Caratteristiche della Struttura</h2>
+                    <ul class="feature-list-with-icons">
+                        <li><i class="fa-solid fa-person-swimming feature-icon"></i> Piscina Grande con Idromassaggio</li>
+                        <li><i class="fa-solid fa-spa feature-icon"></i> Jacuzzi ad Uso Esclusivo</li>
+                        <li><i class="fa-solid fa-tree feature-icon"></i> Giardino ampio e curato</li>
+                        <li><i class="fa-solid fa-wifi feature-icon"></i> Wi-Fi gratuito in tutta la struttura</li>
+                        <li><i class="fa-solid fa-wind feature-icon"></i> Aria Condizionata</li>
+                        <li><i class="fa-solid fa-kitchen-set feature-icon"></i> Cucina attrezzata</li>
+                        <li><i class="fa-solid fa-square-parking feature-icon"></i> Parcheggio interno</li>
+                        <li><i class="fa-solid fa-fire-burner feature-icon"></i> Area barbecue e pranzo all'aperto</li>
+                        <li><i class="fa-solid fa-umbrella-beach feature-icon"></i> Spiagge vicine raggiungibili in pochi minuti</li>
+                        <li><i class="fa-solid fa-paw feature-icon"></i> Pet Friendly</li>
+                        <li><i class="fa-solid fa-fence feature-icon"></i> Giardino interamente recintato</li>
+                        <li><i class="fa-solid fa-people-roof feature-icon"></i> Adatto a famiglie con bambini</li>
+                    </ul>
+                </div>
+
+
+        </section>
+
+        <section class="booking-form-section">
+            <h2>Richiedi Disponibilità</h2>
+            <p class="contact-intro-text">
+            Contattaci compilando il form sotto, oppure puoi sempre contattarci su Whatsapp a questo numero <a href="https://wa.me/393891277437" target="_blank">+39 389 12 77 437</a>.
+            Riceverai la quotazione migliore del web in quanto questo è il canale diretto di prenotazione della struttura.
+            </p>
+            <form action="#" method="POST" class="booking-form">
+                <div class="form-row">
+                    <div class="form-group half-width">
+                        <label for="nome">Nome e Cognome *</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Il tuo nome e cognome completo">
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="paese">Paese di Provenienza *</label>
+                        <input type="text" id="paese" name="paese" required placeholder="Es. Italia">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Indirizzo Mail *</label>
+                    <input type="email" id="email" name="email" required placeholder="La tua email">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group half-width">
+                        <label for="checkin">Check-in *</label>
+                        <input type="date" id="checkin" name="checkin" required>
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="checkout">Check-out *</label>
+                        <input type="date" id="checkout" name="checkout" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group half-width">
+                        <label for="adulti">Numero Adulti *</label>
+                        <select id="adulti" name="adulti" required>
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="bambini">Numero Bambini (0-12 anni)</label>
+                        <select id="bambini" name="bambini">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Animali Domestici *</label>
+                    <div class="radio-group">
+                        <input type="radio" id="cani_gatti_si" name="cani_gatti" value="si" required>
+                        <label for="cani_gatti_si">Sì</label>
+                        <input type="radio" id="cani_gatti_no" name="cani_gatti" value="no" required>
+                        <label for="cani_gatti_no">No</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="messaggio">Messaggio Aggiuntivo</label>
+                    <textarea id="messaggio" name="messaggio" rows="5" placeholder="Hai richieste particolari o domande?"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Invia Richiesta</button>
+            </form>
+        </section>
+    </div>
+  </main>
+
+  <main id="contatti-section">
+    <section class="google-map-section">
+        <div class="container">
+            <h2>Dove Siamo</h2>
+            <p class="map-intro-text">Vieni a trovarci a San Michele Salentino. Ecco la nostra posizione esatta:</p>
+            <div class="map-embed">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.757650631307!2d17.6325435!3d40.63522630000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13465dd76c4f439d%3A0x61121b02d6352e66!2sLa%20Casina%20-%20Salento%20Vacation%20Rental!5e0!3m2!1sit!2sit!4v1752748394336!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <p class="map-directions-text">
+                <a href="https://www.google.com/maps/place/La+Casina+-+Salento+Vacation+Rental/@40.6375788,17.5896635,13.4z/data=!4m10!1m2!2m1!1sla+casina!3m6!1s0x13465dd76c4f439d:0x61121b02d6352e66!8m2!3d40.6352263!4d17.6325435!15sCglsYSBjYXNpbmFaCyIJbGEgY2FzaW5hkgETdmFjYXRpb25fYXBwYXJ0bWVudJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VRM05tWjVkVTEzRUFFqgFOCgsvZy8xdGdfMG42cRABKg0iCWxhIGNhc2luYSgHMh8QASIb7fSBRrrJhXnQetCVMRfKfp8ooIAyRukUkzIDMg0QAiIJbGEgY2FzaW5h4AEA-gEECHgQIQ!16s%2Fg%2F11b8zztc53?entry=ttu&g_ep=EgoyMDI1MDcxNS4xIKXMDSoASAFQAw%3D%3D" target="_blank">Ottieni indicazioni stradali su Google Maps</a>
+            </p>
+        </div>
+    </section>
+  </main>
+
+      <section class="three-columns-section">
+        <div class="three-columns-container">
+            <div class="column-item">
+                <div class="column-image-placeholder">
+                    <img src="img/ilpaesello.jpg" alt="Immagine Paesello" style="width:100%; height:auto; display:block;">
+                </div>
+                <h3>IL PAESELLO</h3>
+                <p>Il centro di San Michele Salentino è un borgo della valle d’Itria conosciuto per la presenza massiccia di trulli e masserie.
+                    Sono famose le macellerie le stesse alla sera si trasformano in fornelli alla brace come anche le pescherie che alla sera offrono pesce fritto.
+                    Prima settimana di Agosto c’è la festa patronale, ultima settimana di Agosto ‘Sagra del Fico Mandorlato’ accompagnata dal concerto di ‘Pizzica Salentina’.
+                    Il paese offre, nella stagione estiva, numerosi eventi.
+                    Richiedete il programma della settimana direttamente all'arrivo nella struttura.</p>
+            </div>
+
+            <div class="column-item">
+                <div class="column-image-placeholder">
+                    <img src="img/ostuni.jpg" alt="Immagine Dintorni" style="width:100%; height:auto; display:block;">
+                </div>
+                <h3>I DINTORNI</h3>
+                <p>Il paesello di San Michele Salentino occupa una posizione molto centrale per poter visitare la stragrande maggioranza delle bellezze salentine e pugliesi in generale.
+                    Alcuni Esempi:<br>
+                    Valle d'Itria - 15/30 KM<br>
+                    Polignano a Mare (BA) - 63KM<br>
+                    Monopoli (BA) - 56KM<br>
+                    Ostuni (BR) - 14KM<br>
+                    Ceglie Messapica (BR) - 12KM<br>
+                    Brindisi - 26KM<br>
+                    Lecce - 72KM<br>
+                    Otranto - 121KM<br>
+                    San Pietro in Bevagna (TA) - 41KM</p>
+            </div>
+
+            <div class="column-item">
+                <div class="column-image-placeholder">
+                    <img src="img/maretorreorso.jpg" alt="Immagine Mare" style="width:100%; height:auto; display:block;">
+                </div>
+                <h3>IL MARE</h3>
+                <p>Anche nel caso delle marine, San Michele Salentino occupa una posizione molto centrale per poter visitare sia la costa Adriatica che la costa Ionica Alcuni Esempi Costa Adriatica:<br>
+                    Torre Santa Sabina - 18KM<br>
+                    Riserva Torre Guaceto - 19KM<br>
+                    Punta Penna Grossa - 18KM<br>
+                    Specchiolla - 19KM<br><br>
+                    Alcuni Esempi Costa Ionica:<br>
+                    Marina di Pulsano - 48KM<br>
+                    San Pietro In Bevagna - 41KM<br>
+                    Porto Cesareo - 59KM<br>
+                    Riserva Porto Selvaggio - 76K<br>
+                    Gallipoli - 86KM<br><br>
+                    Sei un avventuriero? Oppure vuoi rilassarti? Possiamo consigliarti i posti da visitare direttamente in struttura!</p>
+            </div>
+        </div>
+    </section>
+
+  <div id="lightbox" class="lightbox-overlay">
+      <div class="lightbox-content">
+          <span class="lightbox-close">×</span>
+          <img src="" alt="Immagine ingrandita" class="lightbox-image">
+          <button class="lightbox-nav-btn prev-btn"><</button>
+          <button class="lightbox-nav-btn next-btn">></button>
+      </div>
+  </div>
+
+  <footer class="main-footer">
+    <div class="footer-top-bar"></div>
+    <div class="footer-social-icons-container">
+      <div class="social-icons-wrapper">
+        <a href="https://www.facebook.com/lacasina1/" target="_blank" aria-label="Facebook">
+          <svg class="social-icon-svg" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.122 8.438 9.879V14.65H8.04V12h2.398V9.382c0-2.352 1.417-3.649 3.542-3.649 1.015 0 2.052.181 2.052.181v2.247h-1.14c-1.127 0-1.478.7-1.478 1.424V12h2.497l-.4 2.65h-2.097v7.229C18.343 21.122 22 16.991 22 12c0-5.523-4.477-10-10-10z"/>
+          </svg>
+        </a>
+        <a href="https://www.instagram.com/la.casina" target="_blank" aria-label="Instagram">
+          <svg class="social-icon-svg" id="instagram-icon" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 3C8.8324839 3 3 8.8324839 3 16L3 34C3 41.167516 8.8324839 47 16 47L34 47C41.167516 47 47 41.167516 47 34L47 16C47 8.8324839 41.167516 3 34 3L16 3ZM37 11C38.104 11 39 11.896 39 13C39 14.104 38.104 15 37 15C35.896 15 35 14.104 35 13C35 11.896 35.896 11 37 11ZM25 14C31.075 14 36 18.925 36 25C36 31.075 31.075 36 25 36C18.925 36 14 31.075 14 25C14 18.925 18.925 14 25 14ZM25 16C20.039 16 16 20.039 16 25C16 29.961 20.039 34 25 34C29.961 34 34 29.961 34 25C34 20.039 29.961 16 25 16Z"/>
+          </svg>
+        </a>
+        <a href="https://www.youtube.com/@lacasinadanetta" target="_blank" aria-label="YouTube">
+          <svg class="social-icon-svg" id="youtube-icon" width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.65 7.21C21.43 6.35 20.72 5.64 19.86 5.42C18.06 5 12 5 12 5C12 5 5.94 5 4.14 5.42C3.28 5.64 2.57 6.35 2.35 7.21C2 9.01 2 12 2 12C2 12 2 14.99 2.35 16.79C2.57 17.65 3.28 18.36 4.14 18.58C5.94 19 12 19 12 19C12 19 18.06 19 19.86 18.58C20.72 18.36 21.43 17.65 21.65 16.79C22 14.99 22 12 22 12C22 12 22 9.01 21.65 7.21ZM10 15.5V8.5L16 12L10 15.5Z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-content-wrapper container">
+      <div class="footer-contact">
+        <p class="contact-title">C O N T A T T I</p>
+        <p>Via Ettore Tagliaferro, 112/A</p>
+        <p>72018 San Michele Salentino (BR)</p>
+        <p>Cell. <a href="tel:+393897277497">+39 389 12 77 437</a></p>
+        <p>Cell. <a href="tel:+393349333113">+39 334 92 33 113</a></p>
+        <p>Mail: <a href="mailto:lacasinadanetta@gmail.com">lacasinadanetta@gmail.com</a></p>
+        <p>CIN IT074014C200034242</p>
+
+        <div class="footer-payment-methods">
+            <div class="payment-icons-wrapper">
+                <img src="Loghi/Bonifico.jpg" alt="Bonifico Bancario" class="payment-icon-single" />
+                <img src="Loghi/Paypal.png" alt="PayPal" class="payment-icon-single" />
+                <img src="Loghi/Stripe.png" alt="Stripe" class="payment-icon-single" />
+            </div>
+        </div>
+
+      </div>
+
+      <div class="footer-logo">
+        <a href="#top">
+          <img src="loghi/logo.png" alt="Logo La Casina Footer" class="footer-brand-logo" />
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom-copyright">
+      <div class="container">
+        <p>© 2025 La Casina - Salento Vacation Rental</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const gallerySlides = document.querySelectorAll('.gallery-slide');
+        const thumbnails = document.querySelectorAll('.thumbnail');
+        const prevBtn = document.querySelector('.main-gallery-container .prev');
+        const nextBtn = document.querySelector('.main-gallery-container .next');
+        const thumbnailPrevBtn = document.querySelector('.thumbnail-gallery-container .prev');
+        const thumbnailNextBtn = document.querySelector('.thumbnail-gallery-container .next');
+        const thumbnailScrollWrapper = document.querySelector('.thumbnail-scroll-wrapper');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImage = document.querySelector('.lightbox-image');
+        const lightboxClose = document.querySelector('.lightbox-close');
+        const lightboxPrevBtn = document.querySelector('.lightbox-nav-btn.prev-btn');
+        const lightboxNextBtn = document.querySelector('.lightbox-nav-btn.next-btn');
+
+        let currentIndex = 0;
+        let intervalId;
+        const slideInterval = 3000; // 3 seconds
+
+        // Function to show a specific slide
+        function showSlide(index) {
+            gallerySlides.forEach((slide, i) => {
+                slide.classList.remove('active');
+                if (i === index) {
+                    slide.classList.add('active');
+                }
+            });
+
+            thumbnails.forEach((thumbnail, i) => {
+                thumbnail.classList.remove('active');
+                if (i === index) {
+                    thumbnail.classList.add('active');
+                }
+            });
+
+            currentIndex = index;
+            scrollToThumbnail(currentIndex);
+        }
+
+        // Function to navigate to the next slide
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % gallerySlides.length;
+            showSlide(currentIndex);
+        }
+
+        // Function to navigate to the previous slide
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + gallerySlides.length) % gallerySlides.length;
+            showSlide(currentIndex);
+        }
+
+        // Function to start automatic slideshow
+        function startSlideshow() {
+            clearInterval(intervalId); // Clear any existing interval
+            intervalId = setInterval(nextSlide, slideInterval);
+        }
+
+        // Function to scroll thumbnails into view
+        function scrollToThumbnail(index) {
+            const thumbnailWidth = thumbnails[0].offsetWidth + 10; // Thumbnail width + gap
+            const wrapperWidth = thumbnailScrollWrapper.offsetWidth;
+            const scrollLeft = index * thumbnailWidth - (wrapperWidth / 2) + (thumbnailWidth / 2);
+            thumbnailScrollWrapper.scrollTo({
+                left: scrollLeft,
+                behavior: 'smooth'
+            });
+        }
+
+        // Event listeners for main gallery buttons
+        nextBtn.addEventListener('click', () => {
+            nextSlide();
+            startSlideshow(); // Reset timer on manual interaction
+        });
+
+        prevBtn.addEventListener('click', () => {
+            prevSlide();
+            startSlideshow(); // Reset timer on manual interaction
+        });
+
+        // Event listeners for thumbnail clicks
+        thumbnails.forEach(thumbnail => {
+            thumbnail.addEventListener('click', (e) => {
+                const index = parseInt(e.target.dataset.index);
+                showSlide(index);
+                startSlideshow(); // Reset timer on manual interaction
+            });
+        });
+
+        // Event listeners for thumbnail navigation buttons
+        thumbnailNextBtn.addEventListener('click', () => {
+            thumbnailScrollWrapper.scrollBy({
+                left: thumbnailScrollWrapper.offsetWidth / 2, // Scroll by half wrapper width
+                behavior: 'smooth'
+            });
+        });
+
+        thumbnailPrevBtn.addEventListener('click', () => {
+            thumbnailScrollWrapper.scrollBy({
+                left: -thumbnailScrollWrapper.offsetWidth / 2, // Scroll by half wrapper width
+                behavior: 'smooth'
+            });
+        });
+
+        // Lightbox functionality
+        gallerySlides.forEach((slide, index) => {
+            slide.addEventListener('click', () => {
+                lightbox.classList.add('active');
+                lightboxImage.src = slide.src;
+                lightboxImage.dataset.currentIndex = index;
+            });
+        });
+
+        lightboxClose.addEventListener('click', () => {
+            lightbox.classList.remove('active');
+        });
+
+        lightboxPrevBtn.addEventListener('click', () => {
+            let currentLightboxIndex = parseInt(lightboxImage.dataset.currentIndex);
+            currentLightboxIndex = (currentLightboxIndex - 1 + gallerySlides.length) % gallerySlides.length;
+            lightboxImage.src = gallerySlides[currentLightboxIndex].src;
+            lightboxImage.dataset.currentIndex = currentLightboxIndex;
+        });
+
+        lightboxNextBtn.addEventListener('click', () => {
+            let currentLightboxIndex = parseInt(lightboxImage.dataset.currentIndex);
+            currentLightboxIndex = (currentLightboxIndex + 1) % gallerySlides.length;
+            lightboxImage.src = gallerySlides[currentLightboxIndex].src;
+            lightboxImage.dataset.currentIndex = currentLightboxIndex;
+        });
+
+        // Close lightbox on click outside image (on overlay)
+        lightbox.addEventListener('click', (e) => {
+            if (e.target === lightbox) {
+                lightbox.classList.remove('active');
+            }
+        });
+
+        // Initial setup
+        showSlide(currentIndex); // Show the first slide
+        startSlideshow(); // Start the slideshow automatically
+    });
+  </script>
+</body>
+</html>
